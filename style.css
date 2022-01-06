@@ -1,0 +1,11 @@
+body {
+  margin: 50px 100px 25px;
+  font-family: "Verdana", sans-serif;
+}
+
+div#myDiv,
+div#myDivLower {
+  width: 1500px;
+  margin: 0 auto;
+  border-style: solid;
+}
