@@ -8,6 +8,10 @@ body {
   font-size: large;
 }
 
+img {
+  margin-left: -300px;
+}
+
 table {
   font-family: "Verdana", sans-serif;
   border-collapse: collapse;
