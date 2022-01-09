@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Companion Page</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Companion Page</h1>
+      <a href="../index.html">Home</a>
+    </div>
+    <div>
+      <h2>Results</h2>
+      <p>
+        Here are the plot images and audio, the files with the same number are
+        from the same excerpt in the audio.
+      </p>
+      <img
+        src="../data/inputoutput1.jpg"
+        alt="inputoutput1.jpg"
+        width="auto"
+        height="700"
+      />
+      <p>
+        This plot shows the nonlinearities, before and after the capacitor, of
+        the recorded and prepared dataset. We have chosen to show only 100
+        samples in a plot for the viewer to be able to see the differences in
+        the nonlinearities after the capacitor.
+      </p>
+      <img
+        src="../data/plots1.jpg"
+        alt="plots1.jpg"
+        width="auto"
+        height="700"
+      />
+      <img
+        src="../data/plots2.jpg"
+        alt="plots2.jpg"
+        width="auto"
+        height="700"
+      />
+      <p>
+        This plot shows the predicted and target values of the machine learning.
+        We chose to show 1000 samples so that the viewer is able to discern any
+        and all differences.
+      </p>
+    </div>
+    <div>
+      <h2>Audio Results</h2>
+      <table>
+        <tr>
+          <th>Sample</th>
+          <th>Predicted</th>
+          <th>Targeted</th>
+        </tr>
+        <tr>
+          <td>Audio Sample 1</td>
+          <td>
+            <audio controls autoplay>
+              <source src="../data/pred_data-01.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td>
+            <audio controls autoplay>
+              <source src="../data/target_data-01.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Audio Sample 2</td>
+          <td>
+            <audio controls autoplay>
+              <source src="../data/pred_data-02.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+          <td>
+            <audio controls autoplay>
+              <source src="../data/target_data-02.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <a href="../index.html">Home</a>
+  </body>
+</html>
