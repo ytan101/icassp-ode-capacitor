@@ -1,6 +1,29 @@
 body {
-  margin: 50px 100px 25px;
+  margin: 5vh 250px 25px;
   font-family: "Verdana", sans-serif;
+}
+
+#homePage {
+  margin: 20vh 20vw;
+  font-size: large;
+}
+
+table {
+  font-family: "Verdana", sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #9c9c9c;
 }
 
 div#myDiv,
